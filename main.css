@@ -1,0 +1,2019 @@
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 0 none;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    vertical-align: baseline;
+}
+body {
+    background-color: #F15641;
+    background-image: url("../images/style/body-top.jpg");
+    background-position: center top;
+    background-repeat: repeat-x;
+    height: 100%;
+    width: 100%;
+    float: left;
+    font-family: "Open Sans",sans-serif;
+    font-size: 13px;
+    position: relative;
+    z-index: -11;
+}
+a img {
+    border: 0 none;
+}
+a:active, a:focus, a:active img, a:focus img {
+    outline: 0 none;
+}
+a {
+    color: #F15641;
+    text-decoration: none;
+}
+a:hover {
+    color: #00082D;
+    transition: color 0.2s;
+}
+#cookie {
+    display: none;
+    background: none repeat scroll 0 0 #00082D;
+    color: #F2F2F2;
+    font-size: 12px;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    top: -40px;
+    width: 1010px;
+}
+#cookie p span {
+    cursor: pointer;
+    float: right;
+    font-size: 20px;
+    margin: -5px 0 0 73px;
+    padding: 0 5px;
+    position: absolute;
+}
+#cookie p a:hover {
+    color: #F15641;
+    text-decoration: underline;
+}
+#wrapper {
+    margin: 100px auto 0;
+    width: 1030px;
+}
+#white {
+    background: none repeat scroll 0 0 #F2F2F2;
+    height: 100%;
+    margin: 212px 0 0 530px;
+    position: fixed;
+    width: 2000px;
+    z-index: -10;
+}
+.red {
+    color: #FF0000;
+}
+.green {
+    color: #88CCC2;
+}
+.normalFont {
+    font-size: 11px;
+    font-weight: 400;
+}
+.right {
+    float: right;
+}
+.left {
+    float: left;
+}
+.hidden {
+    display: none;
+}
+#goToMobile {
+    background: none repeat scroll 0 0 #00082D;
+    color: #FFFFFF;
+    font-size: 26px;
+    left: 23%;
+    padding: 19px 257px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+}
+#uploadImageLink {
+    cursor: pointer;
+    font-style: italic;
+    font-weight: 700;
+}
+#uploadImageLink:hover {
+    color: #88CCC2;
+}
+#header {
+    float: left;
+    height: 316px;
+    width: 100%;
+}
+#headerLeft {
+    float: left;
+    width: 730px;
+}
+#headerRight {
+    float: left;
+    text-align: right;
+    width: 300px;
+}
+#logo {
+    float: left;
+    margin: 0;
+    width: 270px;
+}
+#logo a {
+    color: #F15641;
+    float: left;
+    height: 30px;
+    margin: 7px 0 0 7px;
+}
+#logo p {
+    color: #F2F2F2;
+    float: left;
+    font-size: 12px;
+    margin: 0 0 0 10px;
+}
+#logo h1 {
+    color: #F2F2F2;
+    font-size: 43px;
+    line-height: 35px;
+    text-transform: uppercase;
+}
+.fix {
+    position: fixed;
+    top: 0;
+    z-index: 25;
+}
+#subMenu.fix {
+    margin: 0 0 0 730px;
+}
+#stickyHead.fix {
+    position: fixed;
+}
+#stickyHead {
+    background: none repeat scroll 0 0 #00082D;
+    height: 56px;
+    position: absolute;
+    width: 730px;
+}
+#mainMenu {
+    float: left;
+    height: 56px;
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+    white-space: nowrap;
+    width: 460px;
+}
+#mainMenu li {
+    display: inline-block;
+    vertical-align: baseline;
+}
+#mainMenu li a {
+    color: #F2F2F2;
+    float: left;
+    font: 14px/56px Helvetica,Arial,sans-serif;
+    padding: 0 10px;
+    text-decoration: none;
+    transition: color 0.4s;
+}
+#mainMenu li a:hover {
+    background: none repeat scroll 0 0 #EF5540;
+    transition: background-color 0.2s;
+}
+.button, input[type="submit"] {
+    background: none repeat scroll 0 0 #00082D;
+    border: 0 none;
+    color: #F2F2F2;
+    cursor: pointer;
+    font: 16px/1.4em "Open Sans",sans-serif;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+.button:hover, input[type="submit"]:hover {
+    background-color: #88CCC2;
+    color: #FFFFFF;
+    transition: background-color 0.2s;
+}
+#banner {
+    background-image: url("../images/style/banner.jpg");
+    float: left;
+    height: 250px;
+    margin: 66px 0 0;
+    width: 100%;
+}
+#banner span {
+    cursor: pointer;
+    height: 69px;
+    position: absolute;
+    width: 60px;
+    z-index: 15;
+}
+#banner #next {
+    background-image: url("../images/style/next.png");
+    background-position: -10px 0;
+    background-repeat: no-repeat;
+    margin: 90px 0 0 669px;
+}
+#banner #next:hover {
+    background-position: 0 0;
+    transition: background-position 0.5s;
+}
+#banner #prev {
+    background-image: url("../images/style/prev.png");
+    background-position: 10px 0;
+    background-repeat: no-repeat;
+    margin: 90px 0 0;
+}
+#banner #prev:hover {
+    background-position: 0 0;
+    transition: background-position 0.5s;
+}
+#banner ul {
+    list-style-type: none;
+}
+#banner ul li {
+    height: 250px;
+    position: absolute;
+    width: 730px;
+}
+#banner ul li img {
+    float: left;
+    height: 100%;
+}
+#banner ul li .caption {
+    background-image: url("../images/style/banner-caption.png");
+    height: 40px;
+    margin: 200px 0 0;
+    padding: 10px 0 0;
+    position: absolute;
+    width: 730px;
+}
+#banner ul li .caption a {
+    color: #F2F2F2;
+    font-size: 13px;
+    margin: 0 20px;
+}
+#banner ul li .caption a:hover {
+    color: #EF5540;
+    transition: color 0.2s;
+}
+.block.bannerImageMyWeb img, .blockMemberAd.bannerImageMyWeb img {
+    height: 235px;
+    margin: 0;
+    width: 680px;
+}
+#connectSocial {
+    height: 66px;
+}
+#connectFb {
+    margin: 29px 0 7px;
+}
+#twiter-follow {
+    padding: 0px 6px 0 5px;
+    float: left;
+}
+#connectFb span#connectTitle {
+    background: none repeat scroll 0 0 #00082D;
+    color: #F2F2F2;
+    display: inline-block;
+    font: 12px "Open Sans",sans-serif;
+    padding: 5px 15px;
+    vertical-align: top;
+}
+.fb_iframe_widget {
+    float: left;
+}
+#fbWidget {
+    display: inline-block;
+    height: 26px;
+}
+#connectSocial a {
+    display: inline-block;
+    height: 46px;
+    width: 46px;
+}
+#connectSocial a#fbConnect {
+    background: url("../images/style/fb.png") no-repeat scroll center center #00082D;
+}
+#connectSocial a#twitterConnect {
+    background: url("../images/style/twitter.png") no-repeat scroll center center #00082D;
+}
+#connectSocial a:hover {
+    background-position: center 5px !important;
+}
+p.mailingTitle {
+}
+#mailingListForm {
+    background: none repeat scroll 0 0 #00082D;
+    float: left;
+    margin: 0 0 5px;
+    width: 300px;
+}
+#headerRight #mailingListForm h4 {
+    background: none repeat scroll 0 0 #F2F2F2;
+    color: #00082D;
+    float: left;
+    font: 14px "Open Sans",sans-serif;
+    margin: 10px 0 0;
+    padding: 3px 30px 3px 10px;
+    text-align: right;
+}
+#mailingListForm form {
+    border-top: 5px solid #F2F2F2;
+    float: left;
+    padding: 10px 0 0;
+    width: 100%;
+}
+#mailingListForm p {
+    color: #F2F2F2;
+    margin: 0 0 3px;
+    padding: 0 0 0 10px;
+    text-align: right;
+}
+#mailingListForm input[type="text"] {
+    background: none repeat scroll 0 0 #F2F2F2;
+    border: medium none;
+    color: #333333;
+    float: left;
+    font-size: 12px;
+    margin: 0 0 10px;
+    padding: 6px 3px;
+    width: 197px;
+}
+#mailingListForm input[type="submit"] {
+    float: right;
+    font-size: 14px;
+    margin: 0 7px 0 0;
+    padding: 4px 10px;
+}
+.generalPage h1 {
+    
+}
+.generalPage h2 {
+    margin: 0 0 10px;
+}
+.generalPage h3 {
+    margin: 0 0 10px;
+}
+.generalPage h4 {
+    margin: 0 0 5px;
+}
+.generalPage ul {
+    margin: 0 0 20px 30px;
+}
+.generalPage p {
+    margin: 0 0 20px;
+}
+.generalPage table th,
+.generalPage table td{
+    border: 2px solid #999999;
+}
+.generalPage table {    
+    border-collapse: collapse;
+    margin: 30px 0;
+    width: 100%;
+}
+.generalPage table th {
+    background: none repeat scroll 0 0 #DDDDDD;
+    padding: 10px;
+}
+.generalPage table td {
+    padding: 5px 15px;
+}
+#membersArea {
+    background: none repeat scroll 0 0 #00082D;
+    float: left;
+    margin: 5px 0 0;
+    width: 100%;
+}
+#membersArea a {
+    color: #F2F2F2;
+    float: right;
+    font: 14px/1.4em "Open Sans",sans-serif;
+    margin: 8px 10px;
+    text-decoration: none;
+}
+#membersArea a:hover {
+    color: #EF5540;
+    transition: color 0.2s;
+}
+.memberArea .memberAreaFormLine {
+    display: inline-block;
+    margin: 0 0 10px;
+    width: 100%;
+}
+.memberArea .memberAreaFormLine select {
+    background: none repeat scroll 0 0 #DDDDDD;
+    border: medium none;
+    padding: 4px 5px;
+    width: 335px;
+}
+.memberArea input[type="text"], .memberArea .memberAreaFormLine input[type="text"], .memberArea .memberAreaFormLine input[type="email"], .memberArea .memberAreaFormLine input[type="password"], .memberArea .memberAreaFormLine textarea {
+    background: none repeat scroll 0 0 #DDDDDD;
+    border: medium none;
+    padding: 4px 5px;
+    width: 325px;
+}
+.memberArea .memberAreaFormLine input#captcha[type="text"] {
+    width: 110px;
+}
+.memberArea .memberAreaFormLine input[type="checkbox"] {
+}
+.memberArea .defaultBold {
+    margin: 10px 0 0;
+}
+.memberArea .default {
+}
+.memberContactUs textarea {
+    background: none repeat scroll 0 0 #DDDDDD;
+}
+#advertisersAccountTable {
+    border: 2px solid #999999;
+    border-collapse: collapse;
+    margin: 30px 0;
+    width: 100%;
+}
+#advertisersAccountTable tr.alt {
+    background: none repeat scroll 0 0 #DDDDDD;
+}
+#advertisersAccountTable td {
+    padding: 5px 15px;
+}
+#main {
+    background: none repeat scroll 0 0 #F2F2F2;
+    box-shadow: 0 19px 13px 0 #333333;
+    float: left;
+    min-height: 700px;
+    padding: 15px 25px 50px;
+    width: 680px;
+}
+#main h1 {
+    color: #00082D;
+    font: 700 28px/1.4em "Open Sans",sans-serif;
+    margin: 0 0 15px;
+}
+.adsItem {
+    background: none repeat scroll 0 0 #F2F2F2;
+    box-shadow: 0 19px 13px 0 #333333;
+    float: left;
+    min-height: 500px;
+    padding: 15px 25px 100px;
+    width: 680px;
+}
+.adsItem h1 {
+    color: #00082D;
+    font: 700 28px/1.4em "Open Sans",sans-serif;
+    margin: 0 0 15px;
+}
+.adsItem .adsItemRight {
+    float: left;
+}
+.memberAdBody.adsItem .adsItemRight {
+    float: left;
+    width: 480px;
+}
+.memberAdBody.adsItem {
+    min-height: 350px;
+}
+.adsItem.adsItemPage .adsItemRight {
+    float: left;
+    width: 100%;
+}
+.adsItem .adsItemRight img {
+    float: right;
+    margin: 0 0 3px 15px;
+}
+.adsItem .adsItemRight .adsItemRightContent p {
+    font: 13px/20px "Open Sans",sans-serif;
+    margin: 0 0 10px;
+}
+.adsItem .adsItemRight .adsItemRightContent h1 {
+}
+.adsItem .adsItemRight .adsItemRightContent h2 {
+}
+.adsItem .adsItemRight .adsItemRightContent h3 {
+}
+.adsItem .adsItemRight .adsItemRightContent h4 {
+    font-size: 14px;
+    margin: 0 0 10px;
+}
+.adsItem .adsItemRight .adsItemRightContent ul, .adsItem .adsItemRight .adsItemRightContent ol {
+    margin: 0 0 0 20px;
+}
+.adsItem .adsItemRight .adsItemRightContent ul li, .adsItem .adsItemRight .adsItemRightContent ol li {
+    font-size: 13px;
+}
+.adsItem .adsItemRight h4 {
+    font-size: 16px;
+    margin: 0 0 10px;
+}
+.adsItem .adsItemLeftInfo {
+    float: left;
+    margin: 0 20px 0 0;
+    width: 180px;
+}
+.adsItem .adsItemLeftInfo .adsItemLeftInfoBlock {
+    float: left;
+    margin: 10px 0;
+    width: 100%;
+}
+.adsItem .adsItemLeftInfo .adsItemLeftInfoBookmarks ul li {
+    margin: 0 8px 0 0;
+}
+.adsItem .adsItemLeftInfo img {
+}
+.adsItemLeftInfoBlock a.getLocationWeb {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 700;
+    margin: 0;
+}
+.adsItemLeftInfo h4 {
+    font-size: 15px;
+}
+.adsItemLeftInfoBlock ul {
+    float: left;
+    list-style-type: none;
+    margin: 2px 0 5px;
+    width: 100%;
+}
+.adsItemLeftInfoBlock ul li {
+    font-size: 13px;
+    font-style: italic;
+}
+#loader {
+    display: none;
+    margin: 200px 0 0 300px;
+    position: absolute;
+    text-align: center;
+}
+#loader img {
+}
+.block {
+    float: left;
+    margin: 0 0 20px;
+    width: 100%;
+}
+.blockMemberAd {
+    background: none repeat scroll 0 0 #EAE8E8;
+    box-shadow: 0 0 4px 2px #999999;
+    float: left;
+    margin: 0 0 20px;
+    padding: 10px 0 30px;
+    width: 100%;
+}
+.blockMemberAd:hover {
+    box-shadow: 0 0 4px 2px #666666;
+    transition: box-shadow 0.4s;
+}
+.block .date, .blockMemberAd .date {
+    background: none repeat scroll 0 0 #EF5540;
+    float: left;
+    height: 45px;
+    text-align: center;
+    width: 45px;
+}
+.block .date p, .blockMemberAd .date p {
+    color: #F2F2F2;
+    font: 700 16px/1.4em "Open Sans",sans-serif;
+}
+.ad-default-img {
+    background-image: url('../images/style/logo/logo.png');
+    background-repeat: no-repeat;
+    background-color: #00082D;
+    background-position: center center;
+    float: left;
+    height: 130px;
+    margin: 0 0 0 10px;
+    width: 180px;
+}
+.block img, .blockMemberAd img {
+    background: none repeat scroll 0 0 #DDDDDD;
+    float: left;
+    height: 130px;
+    margin: 0;
+    width: 180px;
+}
+.paginationHide {
+    position: absolute;
+    visibility: hidden;
+}
+.blockLeft {
+    float: left;
+    width: 235px;
+}
+.blockLeftDF {
+    float: left;
+}
+.makeFavorite {
+    clear: both;
+    float: left;
+    margin: 15px 0 0;
+}
+.makeFavorite span {
+    background: url("../images/style/gold-star-bw.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: left;
+    height: 45px;
+    width: 45px;
+}
+.makeFavorite span.markedFav, .makeFavorite span:hover {
+    background: url("../images/style/gold-star.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    cursor: pointer;
+}
+.starToolTip {
+    background: none repeat scroll 0 0 #00082D;
+    color: #F2F2F2;
+    opacity: 0.85;
+    padding: 7px;
+    position: absolute;
+}
+.blockLeftLower {
+    display: none;
+    float: left;
+    width: 235px;
+}
+.blockLeftLower a {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 700;
+    margin: 10px 0 0;
+}
+.blockLeftLower a:hover {
+}
+.blockLeftLower a.blockLeftLowerTitle {
+    font-size: 14px;
+}
+.blockLeftLower h4 {
+    font-size: 15px;
+}
+.blockLeftLower ul {
+    list-style-type: none;
+}
+.blockLeftLower ul li {
+}
+.adsItemLeftInfoBlock {
+    float: left;
+    margin: 10px 0 0;
+    width: 100%;
+}
+.adsItemLeftInfoBlock h4 {
+}
+.adsItemLeftInfoBlock a {
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0;
+}
+.adsItemLeftInfoBlock.memberWidget h2, .adsItemLeftInfoBlock.memberWidget h4 {
+    color: #F2F2F2;
+}
+.memberPageAddInfo {
+    margin: 15px 0;
+    padding: 0 15px;
+}
+.memberPageAddInfo .adsItemLeftInfoBlock {
+    float: left;
+    margin: 5px 0 10px;
+    width: 100%;
+}
+.memberPageAddInfo h2 {
+    color: #F2F2F2;
+    font-weight: 400;
+}
+.memberPageAddInfo h4 {
+    color: #88CCC2;
+    font-size: 15px;
+    font-weight: 400;
+}
+.memberPageAddInfo p {
+    color: #F2F2F2;
+}
+.memberPageAddInfo a {
+    color: #F2F2F2;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+}
+.memberPageAddInfo a:hover {
+    color: #EF5540;
+    transition: color 0.2s;
+}
+.memberPageAddInfo ul {
+    margin: 0;
+}
+.memberPageAddInfo ul li {
+    color: #F2F2F2;
+}
+.mainIten {
+    border: 5px solid #88CCC2;
+    float: right;
+    min-height: 100px;
+    padding: 10px;
+    width: 400px;
+}
+#memberMyAdContent .mainIten {
+    margin: 0 5px 0 0;
+}
+.mainIten a.mainItemTitle {
+    color: #00082D;
+    font: 700 20px "Open Sans",sans-serif;
+    text-decoration: none;
+}
+.mainIten a.mainItemTitle:hover {
+    color: #EF5540;
+}
+.mainIten h2 {
+    color: #00082D;
+    font: 700 20px "Open Sans",sans-serif;
+}
+.mainIten h4 {
+    color: #00082D;
+    font: 700 14px "Open Sans",sans-serif;
+    margin: 0 0 5px;
+}
+.mainIten p {
+    color: #00082D;
+    font: 13px/20px "Open Sans",sans-serif;
+    margin: 0 0 10px;
+}
+.mainIten .addInfo ul {
+    list-style-type: none;
+    padding: 0 0 0 10px;
+}
+.mainIten .addInfo ul li {
+    font-size: 12px;
+}
+.addInfo {
+    display: none;
+    margin: 0 0 15px;
+}
+.getLocation {
+}
+.shareIt {
+}
+.socialBookmarks {
+    float: left;
+    margin: 15px 0 0;
+    text-align: right;
+    width: 100%;
+}
+.socialBookmarks span {
+    background: none repeat scroll 0 0 #00082D;
+    color: #F2F2F2;
+    cursor: pointer;
+    float: left;
+    font: 16px/1.4em "Open Sans",sans-serif;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+.socialBookmarks span:hover {
+    background-color: #88CCC2;
+    transition: background-color 0.2s;
+}
+.socialBookmarks p {
+    color: #EF5540;
+    display: inline-block;
+    font-size: 12px;
+    margin: 0;
+    vertical-align: bottom;
+}
+.socialRight {
+    float: right;
+    height: 20px;
+    margin: 13px 0 0;
+}
+#subMenu .hj_social_bookmarks {
+    display: inline-block;
+    list-style-type: none;
+    margin: 5px 0 0;
+    vertical-align: bottom;
+}
+#subMenu .hj_social_bookmarks li {
+    float: left;
+    margin: 0 10px 0 0;
+}
+#subMenu .hj_social_bookmarks li a {
+    float: left;
+    height: 25px;
+    opacity: 0.7;
+    padding: 0;
+    width: 25px;
+}
+#subMenu .hj_social_bookmarks li a:hover {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    opacity: 1;
+    transition: opacity 0.2s;
+}
+#subMenu .hj_social_bookmarks li a img {
+    height: 25px;
+    margin: 0;
+    width: 25px;
+}
+.postLinks {
+    margin: 15px 0 0;
+    text-align: right;
+}
+.postLinks a {
+    background: none repeat scroll 0 0 #00082D;
+    color: #F2F2F2;
+    font: 16px/1.4em "Open Sans",sans-serif;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+.postLinks a:hover {
+    background-color: #88CCC2;
+    transition: background-color 0.2s;
+}
+#subMenu {
+    background: none repeat scroll 0 0 #00082D;
+    float: left;
+    padding: 0 0 20px;
+    width: 300px;
+}
+#subMenu h1 {
+    color: #88CCC2;
+    font-size: 24px;
+    padding: 10px 0 5px 15px;
+}
+ul.locMenuBar {
+    list-style-type: none;
+    overflow: auto;
+}
+#subMenu ul {
+    list-style-type: none;
+}
+#subMenu ul li a {
+    color: #F2F2F2;
+    float: left;
+    font: 14px Helvetica,Arial,sans-serif;
+    padding: 6px 5%;
+    text-decoration: none;
+    width: 90%;
+}
+#subMenu ul li a:hover {
+    background: none repeat scroll 0 0 #EF5540;
+    transition: background-color 0.2s;
+}
+#subMenu ul li a.activeLoc {
+    background: none repeat scroll 0 0 #EF5540;
+}
+#favoritesBlock {
+    background: none repeat scroll 0 0 #00082D;
+    display: none;
+    left: -312px;
+    opacity: 0.7;
+    position: fixed;
+    width: 350px;
+    z-index: 20;
+}
+#favoritesBlock:hover {
+    opacity: 1;
+}
+#favoritesBlock p {
+    color: #FFFFFF;
+    float: right;
+    font-size: 14px;
+    padding: 15px;
+}
+#favoritesBlock #favoritesBlockContainer {
+    float: left;
+    padding: 15px 0 15px 15px;
+    width: 293px;
+}
+#favoritesBlock #favoritesBlockContainer p {
+    float: left;
+}
+#favoritesBlock #favoritesBlockContainer a {
+    color: #F2F2F2;
+    display: block;
+    font: 13px/1.2em "Open Sans",sans-serif;
+    margin: 0 0 5px;
+}
+#favoritesBlock #favoritesBlockContainer a.favoriteEntries {
+    display: block;
+}
+#favoritesBlock #favoritesBlockContainer a:hover {
+    color: #EF5540;
+    transition: color 0.2s;
+}
+#favoritesBlock h1 {
+    color: #FFFFFF;
+}
+#footer {
+    background: none repeat scroll 0 0 #00082D;
+    bottom: -195px;
+    float: left;
+    opacity: 0.7;
+    padding: 5px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 60;
+}
+#footer:hover {
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+#footerInner {
+    margin: 0 auto;
+    width: 980px;
+}
+#footerInner p {
+    color: #F2F2F2;
+    font: 11px/1.2em "Open Sans",sans-serif;
+    margin: 3px 0 0;
+}
+.footerRight a, #contactUsHide {
+    color: #F2F2F2;
+    font: 11px/1.2em "Open Sans",sans-serif;
+}
+.footerRight a:hover, #contactUsHide:hover {
+    color: #EF5540;
+    transition: color 0.2s;
+}
+#footerContactUsForm {
+    float: left;
+    height: 185px;
+    margin: 15px 0 0;
+    width: 100%;
+}
+.footerContactUsHead {
+    float: left;
+    width: 100%;
+}
+.contactUsFormLeft {
+    margin: 15px 50px 0 0;
+    width: 330px;
+}
+.contactUsFormRight {
+    float: left;
+    margin: 15px 0 0;
+    width: 150px;
+}
+.contactUsFormRight #contactUsCaptcha {
+    border: medium none;
+    clear: both;
+    display: block;
+    float: left;
+    padding: 4px 3px;
+}
+.contactUsFormRight img {
+    float: left;
+    margin: 0 0 7px;
+}
+.contactUsFormLeft label, .contactUsFormRight label {
+    display: block;
+    margin: 0 0 3px;
+    width: 100px;
+}
+.contactUsFormLeft input {
+    border: medium none;
+    color: #333333;
+    font-size: 11px;
+    padding: 4px 3px;
+    width: 300px;
+}
+#contactUsForm .contactUsFormLeft p, #contactUsForm .contactUsFormRight p {
+    float: left;
+    margin: 0 0 10px;
+    width: 100%;
+}
+.contactUsFormLeft textarea {
+    border: medium none;
+    color: #333333;
+    font: 11px/1.2em "Open Sans",sans-serif;
+    height: 115px;
+    padding: 3px 5px;
+    width: 300px;
+}
+.contactUsFormRight input[type="submit"] {
+    float: left;
+    margin: 15px 0 0;
+}
+#memberModal {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #888888;
+    display: none;
+    padding: 20px 35px;
+    position: fixed;
+    z-index: 103;
+}
+#overlay {
+    background: url("../images/style/overlay.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: none;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 102;
+}
+#overlay img {
+    left: 50%;
+    position: fixed;
+    top: 50%;
+}
+#createAd {
+    float: right;
+}
+#createDiv {
+    float: left;
+    margin: 0 0 20px;
+    width: 100%;
+}
+#deletedOk {
+    display: none;
+}
+#adDeleteConfirm {
+    margin: 0 20px 0 0;
+}
+.adDeleteModal h2 {
+    margin: 0 0 20px;
+}
+.adDeleteModal a {
+    float: left;
+}
+.closeM {
+    float: left;
+    margin: 0 0 10px;
+    width: 100%;
+}
+.closeM.noMargin {
+    margin: 0;
+}
+.closeModal {
+    cursor: pointer;
+    float: right;
+}
+#memberMyAdContent {
+}
+#memberMyAdContent .block {
+    margin: 0 0 50px;
+}
+#memberMyAdContent .CIField .CITable thead th.top_actions .block {
+    margin: 0;
+    width: auto;
+}
+#memberMyAdContent .createDiv {
+    float: left;
+    margin: 0 0 35px;
+    width: 100%;
+}
+#memberMyAdContent .createDiv h4 {
+    font-size: 16px;
+    margin: 0 0 5px;
+}
+#memberMyAdContent .createDiv a {
+    float: left;
+    margin: 0 10px 0 0;
+}
+#memberMyAdContent .createDiv .removeLinks {
+    display: none;
+}
+#memberMyAdContent .on_off {
+    float: left;
+    margin: 0 0 15px;
+    padding: 0 1%;
+    width: 98%;
+}
+#memberMyAdContent .on_off span#status {
+    float: left;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 3px 0 0 15px;
+}
+#memberMyAdContent input[type="submit"] {
+    background: none repeat scroll 0 0 #00082D;
+    border: 0 none;
+    color: #F2F2F2;
+    cursor: pointer;
+    font: 16px/1.4em "Open Sans",sans-serif;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+#memberMyAdContent input[type="submit"]:hover {
+    background-color: #88CCC2;
+    color: #FFFFFF;
+    transition: background-color 0.2s;
+}
+#memberMyAdContent .CITable ul, ul.AssignedImages, .WCI_Images .tabcontent .sizeholder ul {
+    list-style-type: none;
+}
+.WCI_Images .tabcontent .sizeholder ul {
+    display: none;
+}
+.memberAdBody {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    box-shadow: none;
+    max-height: 350px;
+    overflow-y: scroll;
+    width: 720px;
+}
+.memberAdBody .date {
+}
+.memberAdBody .date p {
+}
+.memberAdBody img {
+}
+.memberAdBody .mainIten {
+}
+.memberAdBody .mainIten h2 {
+}
+.memberAdBody .mainIten h4 {
+}
+.memberAdBody .mainIten p {
+}
+.editAd {
+    float: left;
+    min-height: 470px;
+    width: 900px;
+}
+.editAd .editAdLeft {
+    float: left;
+    width: 200px;
+}
+.editAd .editAdLeft p {
+    font-size: 13px;
+}
+.editAd .editAdLeft h4 {
+    font-size: 14px;
+    margin: 15px 0 5px;
+}
+.editAd .editAdLeft h4.noTop {
+    margin: 0 0 5px;
+}
+.editAd .editAdLeft input {
+}
+.editAd .editAdLeft select {
+    margin: 0 0 10px;
+    width: 170px;
+}
+.editAd .editAdRight {
+    float: left;
+    width: 700px;
+}
+.editAd .editAdRight .adRightTop {
+    float: left;
+    height: 100px;
+    width: 700px;
+}
+.editAd .editAdRight .adRightTop .titlesInputs {
+    float: left;
+    width: 600px;
+}
+.editAd .editAdRight .adRightTop .closeM {
+    float: right;
+    width: 100px;
+}
+.editAd .editAdRight .adRightTop .closeM p {
+    font-size: 16px;
+    font-weight: 400;
+}
+.editAd .editAdRight .editAdEditor {
+    float: left;
+    width: 700px;
+}
+.editAd .editAdRight .editAdEditor.getLocationField {
+    float: left;
+    width: 700px;
+}
+.editAd .editAdRight .editAdEditor .cke_contents {
+}
+.editAd .editAdEditor .submitContainer {
+    width: 200px;
+}
+.getLocationField p {
+    margin: 5px 0 0;
+}
+.getLocationField textarea {
+    height: 34px;
+    overflow-y: scroll;
+    resize: none;
+    width: 690px;
+}
+.cke_toolgroup .cke_button__maximize {
+    display: none;
+}
+.editAd .editAdRight p {
+    font-size: 13px;
+    font-weight: 700;
+}
+.editAd .editAdRight input {
+    margin: 0 0 10px;
+    width: 570px;
+}
+.editAd input[type="submit"] {
+    background: none repeat scroll 0 0 #00082D;
+    border: 0 none;
+    color: #F2F2F2;
+    cursor: pointer;
+    font: 16px/1.4em "Open Sans",sans-serif;
+    margin: 30px 0 0;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+.memberWebModal .editAd input[type="submit"] {
+    margin: 10px 0 0;
+}
+.editAd input[type="submit"]:hover {
+    background-color: #88CCC2;
+    color: #FFFFFF;
+    transition: background-color 0.2s;
+}
+.statusAd h4 {
+    float: left;
+    font-size: 16px;
+    margin: 0 0 15px;
+    width: 290px;
+}
+.statusAd input[type="submit"] {
+    background: none repeat scroll 0 0 #00082D;
+    border: medium none;
+    color: #F2F2F2;
+    cursor: pointer;
+    font: 16px/1.4em "Open Sans",sans-serif;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+.statusAd input[type="submit"]:hover {
+    background-color: #88CCC2;
+    color: #FFFFFF;
+    transition: background-color 0.2s;
+}
+.memberProfile {
+}
+.memberProfile p {
+    font-size: 14px;
+}
+.memberMyWeb {
+}
+#myWebMenu {
+    float: left;
+    height: 30px;
+    list-style-type: none;
+    margin: 0 0 20px;
+    width: 100%;
+}
+#myWebMenu li {
+    float: left;
+    height: 100%;
+    text-align: center;
+    width: 20%;
+}
+#myWebMenu li span {
+    background-color: #88CCC2;
+    color: #00082D;
+    cursor: pointer;
+    display: block;
+    font: 14px/1.4em "Open Sans",sans-serif;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+#myWebMenu li span.activeOne {
+    background: none repeat scroll 0 0 #00082D;
+    color: #F2F2F2;
+}
+#myWebMenu li span:hover {
+    background: none repeat scroll 0 0 #00082D;
+    color: #F2F2F2;
+    cursor: pointer;
+}
+.memberMyWeb h1 {
+}
+.memberMyWeb h2 {
+    font-size: 18px;
+}
+.memberMyWeb h3 {
+}
+.memberMyWeb h4 {
+    font-size: 14px;
+}
+.memberMyWeb p {
+    font-size: 13px;
+    margin: 0 0 5px;
+}
+.memberMyWeb a {
+    font-size: 13px;
+}
+a.memberMyWebCall {
+    font-size: 14px;
+    font-weight: 700;
+}
+.memberMyWeb ul, .memberMyWeb ol {
+    margin: 0 0 20px 25px;
+}
+.memberMyWeb ul li {
+    font-size: 13px;
+}
+#memberAdBody .addGalleryImagesSet {
+    float: left;
+    height: 145px;
+    margin: 0 30px 30px 0;
+    width: 150px;
+}
+.memberWebModal #memberAdBody .cke_contents {
+    min-height: 400px;
+}
+.memberWebModal #memberAdBody.findUsMyWeb .cke_contents {
+    min-height: 200px;
+}
+.memberWebModal #memberAdBody.findUsMyWeb .cke_contents {
+    height: 230px !important;
+}
+.memberWebModal .myWebEditTop {
+    height: 35px;
+    margin: 0 0 5px;
+    width: 900px;
+}
+.findUsContent {
+    text-align: center;
+}
+#findUsMemberTab .mapMyWeb {
+    margin: 30px 0;
+    text-align: center;
+}
+#memberAdBody .adMapSet p {
+    font-size: 13px;
+    font-weight: 700;
+    margin: 15px 0 0;
+}
+#memberAdBody .adMapSet textarea {
+    box-shadow: 0 0 2px 1px #DDDDDD;
+    width: 894px;
+}
+#memberAdBody .addGalleryImagesSet p {
+    font-size: 13px;
+    margin: 0 0 3px;
+}
+#galleryMemberTab ul {
+    margin: 0;
+}
+#galleryMemberTab ul li {
+}
+#memberGallerySlideShow {
+}
+#galleryMemberTab ul li img {
+    margin: 0;
+    max-height: 300px;
+    max-width: 680px;
+}
+.memberMyTabContent {
+    float: left;
+    margin: 50px 0 0;
+    position: absolute;
+    width: 680px;
+}
+.noActiveMyWebtab {
+    margin: 50px 0 0 -10000px;
+}
+.iPhoneCheckContainer {
+    cursor: pointer;
+    height: 27px;
+    overflow: hidden;
+    position: relative;
+}
+.iPhoneCheckContainer input {
+    left: 30px;
+    opacity: 0;
+    position: absolute;
+    top: 5px;
+}
+.iPhoneCheckContainer label {
+    cursor: pointer;
+    display: block;
+    font-family: "Helvetica Neue",Arial,Helvetica,sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    height: 27px;
+    line-height: 17px;
+    overflow: hidden;
+    padding-top: 5px;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+    width: auto;
+}
+.iPhoneCheckContainer, .iPhoneCheckContainer label {
+    -moz-user-select: none;
+    float: left;
+}
+.iPhoneCheckDisabled {
+    opacity: 0.5;
+}
+label.iPhoneCheckLabelOn {
+    background: url("/images/iphone-style-checkboxes/on-green.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+    left: 0;
+    padding-top: 5px;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.6);
+}
+label.iPhoneCheckLabelOn span {
+    padding-left: 8px;
+}
+label.iPhoneCheckLabelOff {
+    background: url("/images/iphone-style-checkboxes/off-red.png") no-repeat scroll right 0 rgba(0, 0, 0, 0);
+    color: #EEEEEE;
+    right: 0;
+    text-align: right;
+}
+label.iPhoneCheckLabelOff span {
+    padding-right: 8px;
+}
+.iPhoneCheckHandle {
+    background: url("/images/iphone-style-checkboxes/slider_left.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    cursor: pointer;
+    display: block;
+    height: 27px;
+    left: 0;
+    padding-left: 3px;
+    position: absolute;
+    top: 0;
+    width: 0;
+}
+.iPhoneCheckHandleRight {
+    background: url("/images/iphone-style-checkboxes/slider_right.png") no-repeat scroll right 0 rgba(0, 0, 0, 0);
+    height: 100%;
+    padding-right: 3px;
+    width: 100%;
+}
+.iPhoneCheckHandleCenter {
+    background: url("/images/iphone-style-checkboxes/slider_center.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 100%;
+    width: 100%;
+}
+.iOSCheckContainer {
+    cursor: pointer;
+    height: 27px;
+    overflow: hidden;
+    position: relative;
+}
+.iOSCheckContainer input {
+    left: 30px;
+    opacity: 0;
+    position: absolute;
+    top: 5px;
+}
+.iOSCheckContainer label {
+    cursor: pointer;
+    display: block;
+    font-family: "Helvetica Neue",Arial,Helvetica,sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    height: 27px;
+    line-height: 17px;
+    overflow: hidden;
+    padding-top: 5px;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+    width: auto;
+}
+.iOSCheckContainer, .iOSCheckContainer label {
+    -moz-user-select: none;
+}
+.iOSCheckDisabled {
+    opacity: 0.5;
+}
+label.iOSCheckLabelOn {
+    background: url("/images/ios-style-checkboxes/on-green.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+    left: 0;
+    padding-top: 5px;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.6);
+}
+label.iOSCheckLabelOn span {
+    padding-left: 8px;
+}
+label.iOSCheckLabelOff {
+    background: url("/images/ios-style-checkboxes/off-red.png") no-repeat scroll right 0 rgba(0, 0, 0, 0);
+    color: #8B8B8B;
+    right: 0;
+    text-align: right;
+    text-shadow: 0 0 2px rgba(255, 255, 255, 0.6);
+}
+label.iOSCheckLabelOff span {
+    padding-right: 8px;
+}
+.iOSCheckHandle {
+    background: url("/images/ios-style-checkboxes/slider_left.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    cursor: pointer;
+    display: block;
+    height: 27px;
+    left: 0;
+    padding-left: 3px;
+    position: absolute;
+    top: 0;
+    width: 0;
+}
+.iOSCheckHandleRight {
+    background: url("/images/ios-style-checkboxes/slider_right.png") no-repeat scroll right 0 rgba(0, 0, 0, 0);
+    height: 100%;
+    padding-right: 3px;
+    width: 100%;
+}
+.iOSCheckHandleCenter {
+    background: url("/images/ios-style-checkboxes/slider_center.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 100%;
+    width: 100%;
+}
+.mCSB_container {
+    margin-right: 30px;
+    overflow: hidden;
+    width: auto;
+}
+.mCSB_container.mCS_no_scrollbar {
+    margin-right: 0;
+}
+.mCS_disabled > .mCustomScrollBox > .mCSB_container.mCS_no_scrollbar, .mCS_destroyed > .mCustomScrollBox > .mCSB_container.mCS_no_scrollbar {
+    margin-right: 30px;
+}
+.mCustomScrollBox > .mCSB_scrollTools {
+    height: 100%;
+    right: 0;
+    top: 0;
+    width: 16px;
+}
+.mCSB_scrollTools .mCSB_draggerContainer {
+    bottom: 0;
+    height: auto;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.mCSB_scrollTools a + .mCSB_draggerContainer {
+    margin: 20px 0;
+}
+.mCSB_scrollTools .mCSB_draggerRail {
+    border-radius: 10px 10px 10px 10px;
+    height: 100%;
+    margin: 0 auto;
+    width: 2px;
+}
+.mCSB_scrollTools .mCSB_dragger {
+    cursor: pointer;
+    height: 30px;
+    width: 100%;
+}
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    border-radius: 10px 10px 10px 10px;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    width: 4px;
+}
+.mCSB_scrollTools .mCSB_buttonUp, .mCSB_scrollTools .mCSB_buttonDown {
+    cursor: pointer;
+    display: block;
+    height: 20px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.mCSB_scrollTools .mCSB_buttonDown {
+    margin-top: -40px;
+    top: 100%;
+}
+.mCSB_horizontal > .mCSB_container {
+    height: auto;
+    margin-bottom: 30px;
+    margin-right: 0;
+    overflow: hidden;
+}
+.mCSB_horizontal > .mCSB_container.mCS_no_scrollbar {
+    margin-bottom: 0;
+}
+.mCS_disabled > .mCSB_horizontal > .mCSB_container.mCS_no_scrollbar, .mCS_destroyed > .mCSB_horizontal > .mCSB_container.mCS_no_scrollbar {
+    margin-bottom: 30px;
+    margin-right: 0;
+}
+.mCSB_horizontal.mCustomScrollBox > .mCSB_scrollTools {
+    bottom: 0;
+    height: 16px;
+    left: 0;
+    overflow: hidden;
+    right: auto;
+    top: auto;
+    width: 100%;
+}
+.mCSB_horizontal > .mCSB_scrollTools a + .mCSB_draggerContainer {
+    margin: 0 20px;
+}
+.mCSB_horizontal > .mCSB_scrollTools .mCSB_draggerRail {
+    border-radius: 10px 10px 10px 10px;
+    height: 2px;
+    margin: 7px 0;
+    width: 100%;
+}
+.mCSB_horizontal > .mCSB_scrollTools .mCSB_dragger {
+    height: 100%;
+    width: 30px;
+}
+.mCSB_horizontal > .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    border-radius: 10px 10px 10px 10px;
+    height: 4px;
+    margin: 6px auto;
+    width: 100%;
+}
+.mCSB_horizontal > .mCSB_scrollTools .mCSB_buttonLeft, .mCSB_horizontal > .mCSB_scrollTools .mCSB_buttonRight {
+    cursor: pointer;
+    display: block;
+    float: left;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    width: 20px;
+}
+.mCSB_horizontal > .mCSB_scrollTools .mCSB_buttonRight {
+    float: right;
+    margin-left: -40px;
+}
+.mCustomScrollBox {
+}
+.mCustomScrollBox > .mCSB_scrollTools {
+    opacity: 0.75;
+}
+.mCustomScrollBox:hover > .mCSB_scrollTools {
+    opacity: 1;
+}
+.mCSB_scrollTools .mCSB_draggerRail {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.4);
+}
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.75);
+}
+.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.85);
+}
+.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar, .mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.9);
+}
+.mCSB_scrollTools .mCSB_buttonUp, .mCSB_scrollTools .mCSB_buttonDown, .mCSB_scrollTools .mCSB_buttonLeft, .mCSB_scrollTools .mCSB_buttonRight {
+    background-image: url("mCSB_buttons.png");
+    background-repeat: no-repeat;
+    opacity: 0.4;
+}
+.mCSB_scrollTools .mCSB_buttonUp {
+    background-position: 0 0;
+}
+.mCSB_scrollTools .mCSB_buttonDown {
+    background-position: 0 -20px;
+}
+.mCSB_scrollTools .mCSB_buttonLeft {
+    background-position: 0 -40px;
+}
+.mCSB_scrollTools .mCSB_buttonRight {
+    background-position: 0 -56px;
+}
+.mCSB_scrollTools .mCSB_buttonUp:hover, .mCSB_scrollTools .mCSB_buttonDown:hover, .mCSB_scrollTools .mCSB_buttonLeft:hover, .mCSB_scrollTools .mCSB_buttonRight:hover {
+    opacity: 0.75;
+}
+.mCSB_scrollTools .mCSB_buttonUp:active, .mCSB_scrollTools .mCSB_buttonDown:active, .mCSB_scrollTools .mCSB_buttonLeft:active, .mCSB_scrollTools .mCSB_buttonRight:active {
+    opacity: 0.9;
+}
+.mCS-dark > .mCSB_scrollTools .mCSB_draggerRail {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.15);
+}
+.mCS-dark > .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.75);
+}
+.mCS-dark > .mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.85);
+}
+.mCS-dark > .mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar, .mCS-dark > .mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.9);
+}
+.mCS-dark > .mCSB_scrollTools .mCSB_buttonUp {
+    background-position: -80px 0;
+}
+.mCS-dark > .mCSB_scrollTools .mCSB_buttonDown {
+    background-position: -80px -20px;
+}
+.mCS-dark > .mCSB_scrollTools .mCSB_buttonLeft {
+    background-position: -80px -40px;
+}
+.mCS-dark > .mCSB_scrollTools .mCSB_buttonRight {
+    background-position: -80px -56px;
+}
+.mCS-light-2 > .mCSB_scrollTools .mCSB_draggerRail {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.1);
+    border-radius: 1px 1px 1px 1px;
+    width: 4px;
+}
+.mCS-light-2 > .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.75);
+    border-radius: 1px 1px 1px 1px;
+    width: 4px;
+}
+.mCS-light-2.mCSB_horizontal > .mCSB_scrollTools .mCSB_draggerRail {
+    height: 4px;
+    margin: 6px 0;
+    width: 100%;
+}
+.mCS-light-2.mCSB_horizontal > .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    height: 4px;
+    margin: 6px auto;
+    width: 100%;
+}
+.mCS-light-2 > .mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.85);
+}
+.mCS-light-2 > .mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar, .mCS-light-2 > .mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.9);
+}
+.mCS-light-2 > .mCSB_scrollTools .mCSB_buttonUp {
+    background-position: -32px 0;
+}
+.mCS-light-2 > .mCSB_scrollTools .mCSB_buttonDown {
+    background-position: -32px -20px;
+}
+.mCS-light-2 > .mCSB_scrollTools .mCSB_buttonLeft {
+    background-position: -40px -40px;
+}
+.mCS-light-2 > .mCSB_scrollTools .mCSB_buttonRight {
+    background-position: -40px -56px;
+}
+.mCS-dark-2 > .mCSB_scrollTools .mCSB_draggerRail {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.1);
+    border-radius: 1px 1px 1px 1px;
+    width: 4px;
+}
+.mCS-dark-2 > .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.75);
+    border-radius: 1px 1px 1px 1px;
+    width: 4px;
+}
+.mCS-dark-2.mCSB_horizontal > .mCSB_scrollTools .mCSB_draggerRail {
+    height: 4px;
+    margin: 6px 0;
+    width: 100%;
+}
+.mCS-dark-2.mCSB_horizontal > .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    height: 4px;
+    margin: 6px auto;
+    width: 100%;
+}
+.mCS-dark-2 > .mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.85);
+}
+.mCS-dark-2 > .mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar, .mCS-dark-2 > .mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.9);
+}
+.mCS-dark-2 > .mCSB_scrollTools .mCSB_buttonUp {
+    background-position: -112px 0;
+}
+.mCS-dark-2 > .mCSB_scrollTools .mCSB_buttonDown {
+    background-position: -112px -20px;
+}
+.mCS-dark-2 > .mCSB_scrollTools .mCSB_buttonLeft {
+    background-position: -120px -40px;
+}
+.mCS-dark-2 > .mCSB_scrollTools .mCSB_buttonRight {
+    background-position: -120px -56px;
+}
+.mCS-light-thick > .mCSB_scrollTools .mCSB_draggerRail {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.1);
+    border-radius: 2px 2px 2px 2px;
+    width: 4px;
+}
+.mCS-light-thick > .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.75);
+    border-radius: 2px 2px 2px 2px;
+    width: 6px;
+}
+.mCS-light-thick.mCSB_horizontal > .mCSB_scrollTools .mCSB_draggerRail {
+    height: 4px;
+    margin: 6px 0;
+    width: 100%;
+}
+.mCS-light-thick.mCSB_horizontal > .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    height: 6px;
+    margin: 5px auto;
+    width: 100%;
+}
+.mCS-light-thick > .mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.85);
+}
+.mCS-light-thick > .mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar, .mCS-light-thick > .mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.9);
+}
+.mCS-light-thick > .mCSB_scrollTools .mCSB_buttonUp {
+    background-position: -16px 0;
+}
+.mCS-light-thick > .mCSB_scrollTools .mCSB_buttonDown {
+    background-position: -16px -20px;
+}
+.mCS-light-thick > .mCSB_scrollTools .mCSB_buttonLeft {
+    background-position: -20px -40px;
+}
+.mCS-light-thick > .mCSB_scrollTools .mCSB_buttonRight {
+    background-position: -20px -56px;
+}
+.mCS-dark-thick > .mCSB_scrollTools .mCSB_draggerRail {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.1);
+    border-radius: 2px 2px 2px 2px;
+    width: 4px;
+}
+.mCS-dark-thick > .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.75);
+    border-radius: 2px 2px 2px 2px;
+    width: 6px;
+}
+.mCS-dark-thick.mCSB_horizontal > .mCSB_scrollTools .mCSB_draggerRail {
+    height: 4px;
+    margin: 6px 0;
+    width: 100%;
+}
+.mCS-dark-thick.mCSB_horizontal > .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    height: 6px;
+    margin: 5px auto;
+    width: 100%;
+}
+.mCS-dark-thick > .mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.85);
+}
+.mCS-dark-thick > .mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar, .mCS-dark-thick > .mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.9);
+}
+.mCS-dark-thick > .mCSB_scrollTools .mCSB_buttonUp {
+    background-position: -96px 0;
+}
+.mCS-dark-thick > .mCSB_scrollTools .mCSB_buttonDown {
+    background-position: -96px -20px;
+}
+.mCS-dark-thick > .mCSB_scrollTools .mCSB_buttonLeft {
+    background-position: -100px -40px;
+}
+.mCS-dark-thick > .mCSB_scrollTools .mCSB_buttonRight {
+    background-position: -100px -56px;
+}
+.mCS-light-thin > .mCSB_scrollTools .mCSB_draggerRail {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.1);
+}
+.mCS-light-thin > .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    width: 2px;
+}
+.mCS-light-thin.mCSB_horizontal > .mCSB_scrollTools .mCSB_draggerRail {
+    width: 100%;
+}
+.mCS-light-thin.mCSB_horizontal > .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    height: 2px;
+    margin: 7px auto;
+    width: 100%;
+}
+.mCS-dark-thin > .mCSB_scrollTools .mCSB_draggerRail {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.15);
+}
+.mCS-dark-thin > .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.75);
+    width: 2px;
+}
+.mCS-dark-thin.mCSB_horizontal > .mCSB_scrollTools .mCSB_draggerRail {
+    width: 100%;
+}
+.mCS-dark-thin.mCSB_horizontal > .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    height: 2px;
+    margin: 7px auto;
+    width: 100%;
+}
+.mCS-dark-thin > .mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.85);
+}
+.mCS-dark-thin > .mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar, .mCS-dark-thin > .mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.9);
+}
+.mCS-dark-thin > .mCSB_scrollTools .mCSB_buttonUp {
+    background-position: -80px 0;
+}
+.mCS-dark-thin > .mCSB_scrollTools .mCSB_buttonDown {
+    background-position: -80px -20px;
+}
+.mCS-dark-thin > .mCSB_scrollTools .mCSB_buttonLeft {
+    background-position: -80px -40px;
+}
+.mCS-dark-thin > .mCSB_scrollTools .mCSB_buttonRight {
+    background-position: -80px -56px;
+}
+#page404 {
+    background-image: url("../images/style/dvdp4.gif");
+    float: left;
+    height: 100%;
+    padding: 50px 0 0;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
+#page404 h1 {
+    color: #FFFFFF;
+}
+#page404 h3 {
+    color: #FFFFFF;
+}
+#page404 h3 a:hover {
+    color: #0000FF;
+}
+
+.tn3-gallery {
+    position: relative;
+    width: 680px;
+    height: 300px;
+    background-color: #FFF;
+    line-height: normal;
+}   
+.tn3-image {
+    position: absolute;
+    width: 680px;
+    height: 300px;
+    background-color: #FFF;
+}
+.tn3-thumbs {
+    position: absolute;
+    width: 680px;
+    height: 60px;
+    left: 0px;
+    padding: 10px 0px;
+}
+.tn3-thumb {
+    border: 1px solid #3e3e3e;
+    width: 75px;
+    height: 50px;
+    margin: 0 2px;
+    cursor: pointer;
+}
+.tn3-thumb div:hover {
+    opacity: 0 !important;
+}
+.tn3-thumb img {
+    width: 75px;
+    height: 50px;
+}    
+.tn3-thumb-over, .tn3-thumb:hover {
+    border: 1px solid #0000FF;
+}
+.tn3-thumb-selected {
+    border: 1px solid #0000FF;
+    cursor: default;
+}
+.tn3-next {
+    background-image: url("../images/style/next.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
+    height: 69px;
+    right: 10px;
+    position: absolute;
+    width: 51px;
+}
+.tn3-prev {
+    background-image: url("../images/style/prev.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
+    height: 69px;
+    left: 6px;
+    position: absolute;
+    width: 51px;
+}
+.tn3-prev-page, .tn3-next-page, .tn3-count, .tn3-play, .tn3-controls-bg {
+    display: none;
+}
+.tn3-preloader {
+    position: absolute;
+    width: 39px;
+    height: 15px;
+    display: none;
+}
+.tn3-timer {
+    background: blue;
+    bottom: 0;
+    height: 2px;
+    position: absolute;
+    width: 100%;
+}
+.tn3-sep1 {
+    position: absolute;
+    background-image: url('../images/style/tn3.png');
+    width: 2px;
+    height: 47px;
+    left: 47px;
+}
+.tn3-sep2 {
+    position: absolute;
+    background-image: url('../images/style/tn3.png');
+    width: 2px;
+    height: 47px;
+    right: 96px;
+}
+.tn3-sep3 {
+    position: absolute;
+    background-image: url('../images/style/tn3.png');
+    width: 2px;
+    height: 47px;
+    right: 47px;
+}
+
+#hide-this-shit {
+    display: none;
+}
