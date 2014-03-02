@@ -1,4 +1,3 @@
-
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
     background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
     border: 0 none;
@@ -267,35 +266,41 @@ a:hover {
     margin: 0;
     width: 680px;
 }
+#socialMedia {
+    height: 56px;
+    margin: 0 0 10px;
+}
 #connectSocial {
-    height: 66px;
+    float: right;
+    margin: 0 0 0 5px;
 }
 #connectFb {
-    margin: 29px 0 7px;
+    float: right;
 }
 #twiter-follow {
-    padding: 0px 6px 0 5px;
+    padding: 0px 6px 0 0;
     float: left;
 }
 #connectFb span#connectTitle {
     background: none repeat scroll 0 0 #00082D;
     color: #F2F2F2;
-    display: inline-block;
+    display: block;
     font: 12px "Open Sans",sans-serif;
+    margin: 0 0 5px;
     padding: 5px 15px;
-    vertical-align: top;
+    text-align: center;
 }
 .fb_iframe_widget {
     float: left;
 }
 #fbWidget {
-    display: inline-block;
+    float: left;
     height: 26px;
 }
 #connectSocial a {
     display: inline-block;
-    height: 46px;
-    width: 46px;
+    height: 52px;
+    width: 52px;
 }
 #connectSocial a#fbConnect {
     background: url("../images/style/fb.png") no-repeat scroll center center #00082D;
@@ -304,17 +309,17 @@ a:hover {
     background: url("../images/style/twitter.png") no-repeat scroll center center #00082D;
 }
 #connectSocial a:hover {
-    background-position: center 5px !important;
+    background-position: center 8px !important;
 }
 p.mailingTitle {
 }
-#mailingListForm {
+.topRightWidgets {
     background: none repeat scroll 0 0 #00082D;
     float: left;
     margin: 0 0 5px;
     width: 300px;
 }
-#headerRight #mailingListForm h4 {
+.topRightWidgets h4 {
     background: none repeat scroll 0 0 #F2F2F2;
     color: #00082D;
     float: left;
@@ -323,33 +328,131 @@ p.mailingTitle {
     padding: 3px 30px 3px 10px;
     text-align: right;
 }
-#mailingListForm form {
+.topRightWidgets form {
     border-top: 5px solid #F2F2F2;
     float: left;
-    padding: 10px 0 0;
+    padding: 10px 0;
     width: 100%;
 }
-#mailingListForm p {
+.topRightWidgets p {
     color: #F2F2F2;
     margin: 0 0 3px;
     padding: 0 0 0 10px;
     text-align: right;
 }
-#mailingListForm input[type="text"] {
+.topRightWidgets input[type="text"] {
     background: none repeat scroll 0 0 #F2F2F2;
     border: medium none;
     color: #333333;
     float: left;
-    font-size: 12px;
+    font-size: 13px;
     margin: 0 0 10px;
     padding: 6px 3px;
     width: 197px;
 }
-#mailingListForm input[type="submit"] {
+.topRightWidgets input[type="submit"] {
     float: right;
     font-size: 14px;
     margin: 0 7px 0 0;
     padding: 4px 10px;
+}
+
+.topRightWidgets form input[type='text'] {
+    margin: 0 0 5px;
+    width: 285px;
+}
+.topRightWidgets form input[type="text"].noPadding {
+    margin: 0px;
+}
+.topRightWidgets .jpDivider {
+    float: left;
+    margin: 0 0 8px;
+}
+.topRightWidgets #journeyMoreOptions {
+    background: none repeat scroll 0 0 #00082D;
+    display: none;
+    margin: -51px 0 0 -212px;
+    padding: 5px 15px 15px;
+    position: absolute;
+    width: 182px;
+    z-index: 555;
+}
+.topRightWidgets #journeyMoreOptions h4 {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+    font-size: 18px;
+    margin: 0 0 10px;
+    padding: 0;
+    text-align: left;
+}
+.topRightWidgets #journeyMoreOptions ul {
+     float: left;
+    text-align: left;
+}
+.topRightWidgets #journeyMoreOptions ul li {
+    float: left;
+    margin: 0 0 7px;
+    width: 100%;
+}
+.topRightWidgets #journeyMoreOptions ul li span {
+    background: none no-repeat scroll 6px center #88CCC2;
+    color: #00082D;
+    cursor: pointer;
+    display: block;
+    padding: 2px 10px 2px 30px;
+}
+.topRightWidgets #journeyMoreOptions ul li span.selectedMOT {
+    background: url("../images/style/tick.png") no-repeat scroll 6px center #88CCC2;
+}
+.topRightWidgets .optionDividerLeft {
+    width: auto;
+}
+.topRightWidgets .optionDividerRight {
+    text-align: center;
+    width: 100%;
+}
+.topRightWidgets form span.journeyOptionBtn {
+    clear: both;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    margin: 0 5px 0 0;
+    padding: 2px 25px;
+}
+.topRightWidgets form span.journeyOptionBtn:hover {
+    background: none repeat scroll 0 0 #88CCC2;
+}
+.topRightWidgets form span.journeyOptionBtn:hover, .topRightWidgets form span.activeJourneyType.journeyOptionBtn {
+    color: #00082D;
+    cursor: context-menu;
+}
+.topRightWidgets form span.activeJourneyType.journeyOptionBtn {
+    background: url("../images/style/tick.png") no-repeat scroll 6px center #88CCC2;
+}
+.topRightWidgets form span.journeyOptionBtn:hover {
+    cursor: pointer;
+}
+.topRightWidgets form a#travelMoreOptions {
+    color: #FFFFFF;
+    float: left;
+    margin: 0;
+    padding: 6px 11px 6px 37px;
+}
+.topRightWidgets form a#travelMoreOptions:hover, .topRightWidgets form a#travelMoreOptions.activeOptionsBtn {
+    background: #F15641;
+}
+.topRightWidgets form a#planJourneySubmit {
+    background: none repeat scroll 0 0 #88CCC2;
+    color: #000000;
+    float: left;
+    font-size: 14px;
+    margin: 0 0 0 10px;
+    padding: 5px 16px;
+    text-align: center;
+}
+.topRightWidgets form a#planJourneySubmit:hover {
+    background: none repeat scroll 0 0 #88CCC2;
 }
 .generalPage h1 {
     
@@ -472,6 +575,9 @@ p.mailingTitle {
 }
 .adsItem .adsItemRight {
     float: left;
+}
+.adsItem .adsItemRight .ad-default-img {
+    margin: 0 10px 0 0;
 }
 .memberAdBody.adsItem .adsItemRight {
     float: left;
@@ -993,6 +1099,13 @@ ul.locMenuBar {
     float: left;
     margin: 15px 0 0;
 }
+#modalBody {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #888888;
+    padding: 20px 35px;
+    position: fixed;
+    z-index: 103;
+}
 #memberModal {
     background: none repeat scroll 0 0 #FFFFFF;
     border: 1px solid #888888;
@@ -1001,7 +1114,7 @@ ul.locMenuBar {
     position: fixed;
     z-index: 103;
 }
-#overlay {
+#overlay, #overlayPlain {
     background: url("../images/style/overlay.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
     display: none;
     height: 100%;
